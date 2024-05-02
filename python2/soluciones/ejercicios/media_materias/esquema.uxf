@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>90</x><y>160</y><w>210</w><h>190</h></coordinates><panel_attributes>Estudiante
+--
+-nombres: string
+-apellidos: string
+-cedula: string
+-numIdentificativo: string
+-examenes: lista examen
+--
+Metodos getter y setter por cada 
+atributo
+--
+calcular_promedio()
+calcular_promedio_ponderado()
+metodo __str__()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>140</y><w>210</w><h>190</h></coordinates><panel_attributes>Materia
+--
+nombre
+nota
+credito
+--
+metodos getter y setter
+--
+metodo __str__()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>210</y><w>230</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;10</additional_attributes></element></diagram>
