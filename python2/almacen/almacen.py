@@ -30,4 +30,6 @@ producto2 = Producto('Pera', '456', 20, 120)
 producto3 = Producto('Naranja', '789', 30, 160)
 listaProductos = [producto, producto2, producto3]
 almacen = Almacen(listaProductos)
+num_juguetes = len(almacen)
 print(almacen)
+print(num_juguetes)
