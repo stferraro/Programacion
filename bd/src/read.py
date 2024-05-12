@@ -23,13 +23,8 @@ finally:
 print(''.center(50, "*"))
 #conexion con with
 try:
-    with psycopg2.connect(user = 'gerardo', 
-                            password = 'desarrollo', 
-                            host = 'localhost', 
-                            port = '5432', 
-                            database = 'pruebadb'
-                        ) as conn:
-        with conn.cursor() as cursor:
+    with conexion:
+        with conexion.cursor() as cursor:
             cursor.execute('SELECT * FROM persona')
             for persona in cursor.fetchall():
                 print(persona)
@@ -37,7 +32,7 @@ try:
 except Exception as e:
     print(e)
 finally:
-    conn.close()
+    conexion.close()
     
 print(''.center(50, "*"))
     
