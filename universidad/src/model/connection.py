@@ -23,7 +23,15 @@ class Connection:
         except OperationalError as e:
             print(e)
             print('Conexión fallida')
-        
+            
+            
+    def write(self, data):
+        with self.conn.cursor() as cur:
+            sentence = """INSERT INTO estudiantes (nombres, apellidos, cedula, email, telefono) VALUES (%(nombres)s, %(apellidos)s, %(cedula)s, %(email)s, %(telefono)s)"""
+            cur.execute(sentence, data) 
+        self.conn.commit()
+            
+                         
     def __def__(self):
         self.conn.close() #destructor
         
