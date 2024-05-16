@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Estudiante</title>
+</head>
+<body>
+    <h1>Detalle del Estudiante</h1>
+    <form action="/estudiante/id" method="get">
+        <label for="student_id">ID del Estudiante:</label>
+        <input type="text" id="student_id" name="id">
+        <button type="submit" id="submitBtn">Buscar Estudiante</button>
+    </form>
+    {% if student %}
+    <h2>Información del Estudiante:</h2>
+    <p><strong>ID:</strong> {{ student.id }}</p>
+    <p><strong>Nombres:</strong> {{ student.nombres }}</p>
+    <p><strong>Apellidos:</strong> {{ student.apellidos }}</p>
+    <p><strong>Cédula:</strong> {{ student.cedula }}</p>
+    <p><strong>Email:</strong> {{ student.email }}</p>
+    <p><strong>Teléfono:</strong> {{ student.telefono }}</p>
+    {% else %} 
+    <p><strong>el estudiante no existe</p>
+    {% endif %}  
+
+
+</body>
+</html>
+
+

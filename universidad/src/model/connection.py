@@ -5,7 +5,7 @@ class Connection:
     
     def __init__(self):
         try:
-            with open('resource/.env', 'r') as f:
+            with open('src/config/.env', 'r') as f:
                 data = f.readlines()
                 for line in data:
                     if line.startswith('DB_HOST'):
