@@ -1,0 +1,8 @@
+Codigo: 111, Cedula: 111, Nombre: Gerardo, Apellido: Gonzales
+**************************************************
+Código: 111, Nombre: Matematica, Nota: 20, Credito: 5
+Código: 222, Nombre: Fisica, Nota: 18, Credito: 3
+Código: 333, Nombre: Quimica, Nota: 19, Credito: 4
+Código: 444, Nombre: Biologia, Nota: 15, Credito: 5
+Código: 555, Nombre: Ingles, Nota: 20, Credito: 5
+Promedio: 						18.41
