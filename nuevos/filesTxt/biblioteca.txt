@@ -1,0 +1,3 @@
+Código: 111, Nombre: Cien Años de Soledad, Genero: Novela
+Código: 222, Nombre: El Señor de los Anillos, Genero: Fantasia
+Código: 333, Nombre: El principito, Genero: Novela
