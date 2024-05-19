@@ -71,7 +71,7 @@ class estudiante:
         return valor_final
     
     def crea_txt(self):
-        with open('/home/gerardo/desarrollo/Programacion/nuevos/filesTxt/estudiante.txt', 'w') as f:
+        with open('estudiante.txt', 'w') as f:
             try:
                 f.write(self.__str__())
             except FileNotFoundError:

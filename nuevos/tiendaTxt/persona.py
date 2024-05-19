@@ -61,14 +61,14 @@ class Persona:
         return valor_final
         
     def crea_txt(self):
-        with open('/home/gerardo/desarrollo/Programacion/nuevos/filesTxt/persona.txt', 'w') as f:
+        with open('persona.txt', 'w') as f:
             try:
                 f.write(self.__str__())
             except FileNotFoundError:
                 print('No se encontro el archivo')
                 
     def crea_excel(self):
-        with open('/home/gerardo/desarrollo/Programacion/nuevos/filesTxt/persona.xlsx', 'w') as f:
+        with open('persona.xlsx', 'w') as f:
             try:
                 f.write(self.__str__())
             except FileNotFoundError:

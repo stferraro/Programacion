@@ -16,7 +16,7 @@ class Biblioteca:
         return "\n".join([str(libro) for libro in self._lista_libros])
     
     def crea_txt(self):
-        with open('/home/gerardo/desarrollo/Programacion/nuevos/filesTxt/biblioteca.txt', 'w') as f:
+        with open('biblioteca.txt', 'w') as f:
             try:
                 f.write(self.__str__())
             except FileNotFoundError:
