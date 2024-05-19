@@ -1,6 +1,5 @@
 from producto import Producto
 
-
 class Persona:
     
     def __init__(self, cedula, nombre, apellido, lista_productos):
@@ -45,7 +44,13 @@ class Persona:
         self._lista_productos.append(producto)
         
     def get_calculo_total(self):
-        return sum(producto.get_calculo_total() for producto in self._lista_productos)
+        total = 0
+        for i in self._lista_productos:
+            total += i.get_calculo_total()
+        if total > 1000:
+            total = total - ((total * 10)/100)
+        return total
+        # return sum(producto.get_calculo_total() for producto in self._lista_productos)
     
     def __str__(self):
         productos_str = "\n".join([str(producto) for producto in self._lista_productos])

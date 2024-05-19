@@ -57,7 +57,10 @@ class estudiante:
         total = 0
         for materia in self._materias:
             total += materia.valor_para_promedio()
-        return total / sum(materia.credito for materia in self._materias)
+        valor_credito = 0
+        for materia in self._materias:
+            valor_credito += materia.credito
+        return total / valor_credito
         
     def __str__(self):
         materias_str = "\n".join([str(materia) for materia in self._materias])

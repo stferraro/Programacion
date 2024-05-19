@@ -40,6 +40,11 @@ class Materia:
         
     def valor_para_promedio(self):
         return (self._nota * self._credito)
-        
+    
+    def suma_credito(self):
+        credito_inicial = 0
+        credito_inicial += self._credito
+        return credito_inicial
+    
     def __str__(self):
         return f"Código: {self._codigo}, Nombre: {self._nombre}, Nota: {self._nota}, Credito: {self._credito}"
