@@ -1,0 +1,4 @@
+Nombre: Juan, Apellido: Perez, Cedula: 123456789, Placa Vehiculo: ABC123, Costo de Reparacion: 500.0
+Nombre: Pedro, Apellido: Lopez, Cedula: 987654321, Placa Vehiculo: DEF456, Costo de Reparacion: 600.0
+Nombre: Maria, Apellido: Garcia, Cedula: 456789123, Placa Vehiculo: GHI789, Costo de Reparacion: 700.0
+Total de Reparaciones: 1800.0

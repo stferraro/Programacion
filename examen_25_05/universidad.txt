@@ -1,0 +1,4 @@
+Estudiantes: 
+Código: 1234, Nombre: Juan, Apellido: Perez, Cedula: 123456789
+Código: 5678, Nombre: Pedro, Apellido: Lopez, Cedula: 987654321
+Código: 9012, Nombre: Maria, Apellido: Garcia, Cedula: 456789123

@@ -1,0 +1,4 @@
+Nombre: Juan, Apellido: Perez, Cedula: 123456789, 
+Cuentas: 
+Numero de Cuenta: 1234, Tipo de Cuenta: Ahorro, Saldo: 1000
+Numero de Cuenta: 5678, Tipo de Cuenta: Corriente, Saldo: 2000

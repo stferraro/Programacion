@@ -53,7 +53,7 @@ class Persona:
         # return sum(producto.get_calculo_total() for producto in self._lista_productos)
     
     def __str__(self):
-        productos_str = "\n".join([str(producto) for producto in self._lista_productos])
+        productos_str = "\n".join([producto.__str__() for producto in self._lista_productos])
         persona_str = f"Cedula: {self._cedula}, Nombre: {self._nombre}, Apellido: {self._apellido}"
         str1 = ''.center(50, '*')
         total = self.get_calculo_total()

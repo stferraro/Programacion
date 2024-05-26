@@ -1,0 +1,5 @@
+Código: 1234, Nombre: Coca Cola, Cantidad: 5, Precio: 500
+Código: 5678, Nombre: Fanta, Cantidad: 4, Precio: 300
+Código: 9012, Nombre: Sprite, Cantidad: 1000, Precio: 200
+Total de prendas: 3
+Total de prendas: 203700.00

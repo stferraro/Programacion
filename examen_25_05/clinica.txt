@@ -1,0 +1,6 @@
+Nombre: Julian, Apellido: Gonzalez, Cedula: 123456789, Especialidad: Cardiologo, 
+Pacientes: 
+Nombre: Julian, Apellido: Gonzalez, Cedula: 123456789, Enfermedad: Diabetes, Costo de la consulta: 500
+Nombre: Filipo, Apellido: Gonzalez, Cedula: 12332776, Enfermedad: Cancer, Costo de la consulta: 1500
+Nombre: Javier, Apellido: Gonzalez, Cedula: 1234523, Enfermedad: Fiebre, Costo de la consulta: 1500
+Total de consultas: 3500.00
