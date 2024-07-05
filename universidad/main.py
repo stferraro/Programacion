@@ -1,7 +1,10 @@
 from fastapi import FastAPI, requests, responses
+import uvicorn.server
 from src.model.connection import Connection
 from src.schema.user_schema import UserSchema
 from jinja2 import Template, Environment, FileSystemLoader
+import webbrowser
+import uvicorn
 
 
 app = FastAPI()
@@ -73,5 +76,7 @@ def insert(user_data: UserSchema):
     connection.write(data)
     
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    url = "http://127.0.0.1:8000/"
+    webbrowser.open(url)
+    uvicorn.run(app, host="127.0.0.1", port=8000) 
+   

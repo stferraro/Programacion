@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" name="it.unibas.morracineseswing.modello.test.TestMano" tests="5" time="0.31">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."></property>
+    <property name="lib.dir" value="c:/Programmi/lib"></property>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+    <property name="test.data.dir" value="E:\codice\lavoro\java\morraCineseSwing\test\dati"></property>
+    <property name="build.sysclasspath" value="ignore"></property>
+    <property name="os.name" value="Windows XP"></property>
+    <property name="sun.boot.class.path" value="C:\Programmi\java\jdk1.5.0_01\jre\lib\rt.jar;C:\Programmi\java\jdk1.5.0_01\jre\lib\i18n.jar;C:\Programmi\java\jdk1.5.0_01\jre\lib\sunrsasign.jar;C:\Programmi\java\jdk1.5.0_01\jre\lib\jsse.jar;C:\Programmi\java\jdk1.5.0_01\jre\lib\jce.jar;C:\Programmi\java\jdk1.5.0_01\jre\lib\charsets.jar;C:\Programmi\java\jdk1.5.0_01\jre\classes"></property>
+    <property name="sun.desktop" value="windows"></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="ant.home" value="C:\Programmi\apache-ant-1.6.2"></property>
+    <property name="java.runtime.version" value="1.5.0_01-b08"></property>
+    <property name="test.build.dir" value="E:\codice\lavoro\java\morraCineseSwing\build\test\classes"></property>
+    <property name="user.name" value="mecca"></property>
+    <property name="build.dir" value="E:\codice\lavoro\java\morraCineseSwing\build\classes"></property>
+    <property name="utilita.src.dir" value="E:\codice\lavoro\java\utilita\src"></property>
+    <property name="user.language" value="it"></property>
+    <property name="ant.file.morracineseswing" value="E:\codice\lavoro\java\morraCineseSwing\build.xml"></property>
+    <property name="test.report.dir" value="E:\codice\lavoro\java\morraCineseSwing\build\test\report"></property>
+    <property name="sun.boot.library.path" value="C:\Programmi\java\jdk1.5.0_01\jre\bin"></property>
+    <property name="utilita.javadoc.dir" value="E:\codice\lavoro\java\utilita\dist\javadoc"></property>
+    <property name="ant.project.name" value="morracineseswing"></property>
+    <property name="java.version" value="1.5.0_01"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="resources.dir" value="E:\codice\lavoro\java\morraCineseSwing\varie\risorse"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+    <property name="test.data.dir.present" value="true"></property>
+    <property name="test.src.dir" value="E:\codice\lavoro\java\morraCineseSwing\test"></property>
+    <property name="java.endorsed.dirs" value="C:\Programmi\java\jdk1.5.0_01\jre\lib\endorsed"></property>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+    <property name="sun.jnu.encoding" value="Cp1252"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="build.debuglevel" value="lines,vars,source"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="java.class.version" value="49.0"></property>
+    <property name="user.country" value="IT"></property>
+    <property name="ant.file.swing-template-build" value="E:\codice\lavoro\java\swing-template-build.xml"></property>
+    <property name="java.home" value="C:\Programmi\java\jdk1.5.0_01\jre"></property>
+    <property name="dist.dir" value="E:\codice\lavoro\java\morraCineseSwing\dist"></property>
+    <property name="java.vm.info" value="mixed mode, sharing"></property>
+    <property name="ant.file" value="E:\codice\lavoro\java\morraCineseSwing\build.xml"></property>
+    <property name="os.version" value="5.1"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="java.vm.version" value="1.5.0_01-b08"></property>
+    <property name="user.variant" value=""></property>
+    <property name="ant.library.dir" value="C:\Programmi\apache-ant-1.6.2\lib"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="main.class" value="it.unibas.morracineseswing.gui.Controllo"></property>
+    <property name="user.home" value="C:\Documents and Settings\mecca"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="test.dir" value="E:\codice\lavoro\java\morraCineseSwing\build\test"></property>
+    <property name="java.library.path" value="C:\Programmi\java\jdk1.5.0_01\jre\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\texmf\miktex\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\Executive Software\DiskeeperWorkstation\;C:\Programmi\Network Associates\PGPNT;c:\Programmi\java\jdk1.5.0_01\bin;C:\Programmi\borland\bcc55\bin;C:\Programmi\borland\tp;C:\Programmi\salford;C:\Programmi\apache-ant-1.6.2\bin;C:\Programmi\xmlvalid;C:\Windows\Microsoft.NET\Framework\v1.1.4322\;c:\Programmi\subversion\bin;C:\Programmi\PostgreSQL\8.0\bin;c:\Programmi\nant-0.85-rc1\bin;C:\Programmi\Microsoft SQL Server\80\Tools\Binn\;C:\Programmi\salford"></property>
+    <property name="java.vendor.url" value="http://java.sun.com/"></property>
+    <property name="mylib.dir" value="e:/codice/lib"></property>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+    <property name="build.optimize" value="off"></property>
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+    <property name="java.class.path" value="E:\codice\lavoro\java\morraCineseSwing\build\classes;E:\codice\lib\utilita.jar;E:\codice\lavoro\java\morraCineseSwing\build\test\classes;C:\Programmi\lib\junit.jar;C:\Programmi\lib\jfcunit.jar;C:\Programmi\lib\jakarta-regexp.jar;C:\Programmi\lib\xerces.jar;C:\Programmi\apache-ant-1.6.2\lib\junit.jar;C:\Programmi\apache-ant-1.6.2\lib\ant-launcher.jar;C:\Programmi\apache-ant-1.6.2\lib\ant.jar;C:\Programmi\apache-ant-1.6.2\lib\ant-junit.jar"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.2 compiled on July 16 2004"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="sun.os.patch.level" value="Service Pack 2"></property>
+    <property name="build.debug" value="on"></property>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\mecca\IMPOST~1\Temp\"></property>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="java.ext.dirs" value="C:\Programmi\java\jdk1.5.0_01\jre\lib\ext"></property>
+    <property name="user.dir" value="E:\codice\lavoro\java\morraCineseSwing"></property>
+    <property name="misc.dir" value="E:\codice\lavoro\java\morraCineseSwing\varie"></property>
+    <property name="resources.dir.present" value="true"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="basedir" value="E:\codice\lavoro\java\morraCineseSwing"></property>
+    <property name="utilita.build.dir" value="E:\codice\lavoro\java\utilita\build\classes"></property>
+    <property name="ant.java.version" value="1.5"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="java.specification.version" value="1.5"></property>
+    <property name="src.dir" value="E:\codice\lavoro\java\morraCineseSwing\src"></property>
+    <property name="javadoc.dir" value="E:\codice\lavoro\java\morraCineseSwing\dist\javadoc"></property>
+  </properties>
+  <testcase classname="it.unibas.morracineseswing.modello.test.TestMano" name="testIsValida" time="0.01"></testcase>
+  <testcase classname="it.unibas.morracineseswing.modello.test.TestMano" name="testGioca1" time="0.0"></testcase>
+  <testcase classname="it.unibas.morracineseswing.modello.test.TestMano" name="testGioca2" time="0.0"></testcase>
+  <testcase classname="it.unibas.morracineseswing.modello.test.TestMano" name="testGioca3" time="0.0"></testcase>
+  <testcase classname="it.unibas.morracineseswing.modello.test.TestMano" name="testGiocateComputer" time="0.0"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
